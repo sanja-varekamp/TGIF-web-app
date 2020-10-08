@@ -1,0 +1,87 @@
+/* all pages PC */
+
+body {
+    color: rgba(7, 9, 95, 1);
+
+}
+
+.navbar {
+    background-color: #1C407C;
+}
+
+.main-text {
+    padding: 20px 0;
+}
+
+.footer {
+    bottom: -25px;
+}
+
+/* main text, home page */
+
+.main-text a.collapsed::after {
+    content: 'Read more';
+}
+
+.main-text a:not(.collapsed)::after {
+    content: 'Read Less';
+}
+
+/* filters position*/
+#filter-container {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.D,
+.R,
+.I {
+    padding: 0 0 0 15px;
+}
+
+#state-list {
+    padding: 0 20px;
+}
+
+#select-state {
+    padding: 0 0 0 80px;
+}
+
+b {
+    margin-left: 100px;
+    padding: 3px;
+    font-size: 30px;
+    border: #D0985C 3px;
+    border-style: solid;
+}
+
+/* tables styling for attendance and loyalty */
+
+.table-container {
+    display: inline-flex;
+    width: 100%;
+
+}
+
+.table-left {
+    padding: 10px;
+    width:100%;
+}
+
+.table-right {
+    padding: 10px 0 0 40px;
+    width: 100%;
+}
+
+/* table stylinig for congress */
+table {
+    text-align: center;
+}
+
+tr td:nth-child(1) { 
+   text-align: left;
+}
+
+thead tr th:nth-child(1) { 
+    text-align: left;
+ }
